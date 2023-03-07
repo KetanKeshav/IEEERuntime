@@ -144,6 +144,7 @@ strong {
 -----------------------------------------*/
 .section-title-wrap {
   position: relative;
+  text-align:justify;
 }
 
 .section-title-wrap::after {
@@ -152,6 +153,7 @@ strong {
   width: 100%;
   height: 2px;
   position: absolute;
+  text-align:justify;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -163,6 +165,16 @@ strong {
   border-radius: var(--border-radius-large);
   display: inline-block;
   position: relative;
+  text-align:justify;
+  z-index: 2;
+  margin-bottom: 0;
+  padding: 10px 25px;
+}
+
+.section-text {
+  display: inline-block;
+  position: relative;
+  text-align:justify;
   z-index: 2;
   margin-bottom: 0;
   padding: 10px 25px;
@@ -282,7 +294,7 @@ main {
 }
 
 .navbar .logo-image {
-  width: 100px;
+  width: 200px;
 }
 
 .logo-image {
@@ -603,6 +615,7 @@ main {
   position: relative;
   overflow: hidden;
   padding: 30px;
+  text-align:justify;
   transition: all 0.3s ease;
 }
 
@@ -616,6 +629,7 @@ main {
 .custom-block-info {
   display: block;
   padding: 10px 20px;
+  text-align:justify;
   padding-bottom: 0;
 }
 
@@ -632,8 +646,8 @@ main {
 .custom-block-image {
   border-radius: var(--border-radius-medium);
   display: block;
-  width: 112px;
-  height: 112px;
+  width: 220px;
+  height: 120px;
   object-fit: cover;
 }
 
